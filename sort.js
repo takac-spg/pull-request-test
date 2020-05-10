@@ -3,6 +3,8 @@ var sortNumber = function (number) {
         if (a === b) {
             return 0;
         }
+        console.log(a);
+        console.log(b);
         return a < b ? -1 : 1;
     });
  };
